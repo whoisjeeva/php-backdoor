@@ -1,8 +1,6 @@
 import requests
 import sys, os
-from timeit import default_timer as timer
 from cmd import Cmd
-import threading
 sys.path.insert(0, '../..')
 
 class Color:
